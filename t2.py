@@ -15,7 +15,7 @@ class shouji2(unittest.TestCase):
         desired_caps['appPackage'] = 'com.android.dialer'
         desired_caps['appActivity'] = '.DialtactsActivity'
 
-        cls.driver = .Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+        cls.driver = ('http://127.0.0.1:4723/wd/hub', desired_caps)
 
 
     def test_get(self):
