@@ -5,10 +5,10 @@ class shouji2(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver=t2.shouji2.test_get()
+        print "222"
 
     def test_get(self):
-        self.driver.
+       t2.shouji2().test_a("lkllj")
 
     def setUp(self):
         print "setup1"
